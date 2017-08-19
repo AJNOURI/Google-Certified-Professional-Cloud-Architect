@@ -1,0 +1,23 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sshfsserver
+  labels:
+    name: sshfsserver
+spec:
+  containers:
+  - image: ajnouri/sshfs-server
+    name: sshfsserver
+    ports:
+    - containerPort: 22
+      name: sshfs
+    volumeMounts:
+    - mountPath: /data
+      name: gns3-persistent-data
+  volumes:
+  - name: gns3-persistent-data
+    gcePersistentDisk:
+      pdName: gns3-disk1
+      fsType: ext4
+
