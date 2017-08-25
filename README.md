@@ -4,7 +4,7 @@
 - https://cloud.google.com/certification/cloud-architect
 
 
-### Google Cloud Engine
+### Google Compute Engine
 
 ### Google Container Engine
 
