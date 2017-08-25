@@ -17,5 +17,3 @@ I am collecting all issues I've encountered during the learning process, mainly,
 In the issue section, look for issues labeled Troubleshooting. Opened issues are still under investigation, closed are solved.
 
 Even though different root causes could have the same symptoms and some solutions are curcumstantial, they still gives a hint on how processes and configuration files are interconnected.
-
-If you are lucky enough, you'll make a lot of mistakes to learn from and to be prepared for the exam :)
